@@ -19,5 +19,8 @@ while True:
 
     state = find_state(cap)
     if state:
-        state.do_automation()
+        print('Current State:', state.name())
+        state.do_automation(device, cap)
+    else:
+        print('Unknown State')
     sleep(3)

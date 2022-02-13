@@ -21,6 +21,7 @@ class State(ABC):
 
 class PlayAttackState(State):
     def do_automation(self, device, capture):
+        print('tap attack speed / damage')
         device.tap_point(self.points['attack_speed'])
         device.tap_point(self.points['damage'])
 
@@ -37,6 +38,7 @@ class PlayUtilityState(State):
 
 class GameOverState(State):
     def do_automation(self, device, capture):
+        print('tap retry')
         device.tap_point(self.points['retry'])
 
 
