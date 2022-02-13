@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/android-the-tower.iml" filepath="$PROJECT_DIR$/.idea/android-the-tower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/the-tower.iml" filepath="$PROJECT_DIR$/.idea/the-tower.iml" />
     </modules>
   </component>
 </project>

@@ -20,4 +20,6 @@ while True:
     state = find_state(cap)
     if state:
         print('Current State:', state.name())
+    else:
+        print('Unknown State')
     sleep(3)
